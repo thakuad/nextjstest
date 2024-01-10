@@ -48,10 +48,8 @@ function classNames(...classes: string[]) {
 
 export default function chatLayout({
   children,
-  activeChild,
 }: {
   children: React.ReactNode;
-  activeChild: string;
 }) {
   const handleSignOut = async () => {
     localStorage.clear();
